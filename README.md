@@ -19,10 +19,10 @@ Fast, lightweight, and designed for bulk discovery and banner grabbing.
 
 ## Quick Start
 
-Clone, build, and run:
+run:
 
 ```bash
-./panther_scan 192.168.1.1 -p 22,80 -t 100 -T 300 
+./panther 192.168.1.1 -p 22,80 -t 100 -T 300 
 ```
 
 ---
@@ -30,7 +30,7 @@ Clone, build, and run:
 ## CLI
 
 ```
-./panther_scan <target|range|cidr> [OPTIONS]
+./panther <target|range|cidr> [OPTIONS]
 
 Options:
   -h, --help           Show this help
